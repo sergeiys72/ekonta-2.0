@@ -1,0 +1,13 @@
+.works__item{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 21px;
+border-top: 1px solid black;
+padding: 21px 0 0 0;
+box-sizing: border-box;
+}
+
+.works__item:first-child{
+  margin-top: 50px;
+}

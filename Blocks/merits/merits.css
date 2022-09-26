@@ -1,0 +1,6 @@
+.merits{
+  position: relative;
+  background: rgba(128, 220, 104, 0.15);
+  z-index: 1;
+  padding: 23px 143px 35px;
+}

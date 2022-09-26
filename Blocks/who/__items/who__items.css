@@ -1,0 +1,6 @@
+.who__items{
+  display: grid;
+  grid-template-columns: 365px 365px 365px;
+  gap: 50px;
+  justify-content: center;
+}

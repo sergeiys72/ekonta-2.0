@@ -1,0 +1,8 @@
+.comment__items{
+  position: relative;
+  top: 70px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto 0;
+}

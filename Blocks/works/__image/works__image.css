@@ -1,0 +1,6 @@
+.works__image{
+  position: absolute;
+  top: -285px;
+  right: 0;
+  z-index: -1;
+}

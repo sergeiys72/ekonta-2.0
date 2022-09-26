@@ -1,0 +1,7 @@
+.header__content{
+  position: relative;
+  max-width: 1200px;
+  margin: auto  ;
+  z-index: 1;
+  /*padding: 46px 0;*/
+}

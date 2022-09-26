@@ -1,0 +1,14 @@
+.service__head-text{
+position: relative;
+max-width: 1200px;
+margin: auto;
+padding: 0 30px;
+box-sizing: border-box;
+font-size: 22px;
+font-weight: 300;
+line-height: 26px;
+padding: 38px 0;
+color: rgba(68, 112, 57, 1);
+margin-bottom: 83px;
+z-index: 1;
+}

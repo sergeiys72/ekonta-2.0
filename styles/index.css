@@ -1,0 +1,82 @@
+@import url(../Blocks/root/root.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts__roboto.css);
+
+
+/* ! title */
+@import url(../Blocks/title/title.css);
+
+/* ! head */
+@import url(../Blocks/header/header.css);
+@import url(../Blocks/header/__info/header__info.css);
+@import url(../Blocks/header/__adress/header__adress.css);
+@import url(../Blocks/header/__number/header__number.css);
+@import url(../Blocks/header/__promotion/header__promotion.css);
+@import url(../Blocks/header/__content/header__content.css);
+@import url(../Blocks/header/__logo/header__logo.css);
+@import url(../Blocks/header/__text/header__text.css);
+@import url(../Blocks/header/__bt/header__bt.css);
+
+/* ! merits */
+@import url(../Blocks/merits/merits.css);
+@import url(../Blocks/merits/__items/merits__items.css);
+@import url(../Blocks/merits/__item/merits__item.css);
+
+/*! service */
+@import url(../Blocks/service/service.css);
+@import url(../Blocks/service/__list/service__list.css);
+@import url(../Blocks/service/__title/service__title.css);
+@import url(../Blocks/service/__head/service__head.css);
+@import url(../Blocks/service/__head-text/service__head-text.css);
+@import url(../Blocks/service/__items/service__items.css);
+@import url(../Blocks/service/__item/service__item.css);
+@import url(../Blocks/service/__img/service__img.css);
+@import url(../Blocks/service/__text/service__text.css);
+
+/* ! who */
+@import url(../Blocks/who/who.css);
+@import url(../Blocks/who/__content/who__content.css);
+@import url(../Blocks/who/__head/who__head.css);
+@import url(../Blocks/who/__items/who__items.css);
+@import url(../Blocks/who/__item/who__item.css);
+@import url(../Blocks/who/__img/who__img.css);
+@import url(../Blocks/who/__title/who__title.css);
+@import url(../Blocks/who/__text/who__text.css);
+
+/* ! comment */
+@import url(../Blocks/comment/comment.css);
+@import url(../Blocks/comment/__head/comment__head.css);
+@import url(../Blocks/comment/__items/comment__items.css);
+@import url(../Blocks/comment/__item/comment__item.css);
+@import url(../Blocks/comment/__img/comment__img.css);
+
+/* ! works */
+@import url(../Blocks/works/works.css);
+@import url(../Blocks/works/__content/works__content.css);
+@import url(../Blocks/works/__image/works__image.css);
+@import url(../Blocks/works/__items/works__items.css);
+@import url(../Blocks/works/__item/works__item.css);
+@import url(../Blocks/works/__text/works__text.css);
+@import url(../Blocks/works/__check/works__check.css);
+
+/* ! letter */
+@import url(../Blocks/letter/letter.css);
+
+/* ! map */
+@import url(../Blocks/map/map.css);
+@import url(../Blocks/map/__content/map__content.css);
+@import url(../Blocks/map/__img/map__img.css);
+
+/* ! contacts */
+@import url(../Blocks/contacts/contacts.css);
+@import url(../Blocks/contacts/__content/contacts__content.css);
+@import url(../Blocks/contacts/__img/contacts__img.css);
+@import url(../Blocks/contacts/__info-item/contacts__info-item.css);
+@import url(../Blocks/contacts/__info-items/contacts__info-items.css);
+@import url(../Blocks/contacts/__info/contacts__info.css);
+@import url(../Blocks/contacts/__text/contacts__text.css);
+@import url(../Blocks/contacts/__title/contacts__title.css);
+
+/* ! clients */
+@import url(../Blocks/clients/clients.css);
+@import url(../Blocks/clients/__img/clients__img.css);
