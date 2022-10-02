@@ -1,0 +1,20 @@
+.fix-hed__items{
+  position: absolute;
+  display: none;
+  /*overflow: hidden;*/
+  padding: 20px 20px;
+  width: 300px;
+  background-color: #80DC68;
+  border: 1px solid #000;
+  bottom: -285px;
+  right:0%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+@media screen and (max-width: 829.99px) {
+  .fix-hed__items{
+    bottom: -265px;
+  }
+}
+

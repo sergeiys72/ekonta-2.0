@@ -1,14 +1,48 @@
 .service__item{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 342px;
-  height: 286px;
+  max-width: 342px;
+  height: auto;
   background: #FFFFFF;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.07), 3px 3px 25px rgba(0, 0, 0, 0.08);
   border-radius: 3px;
   box-sizing: border-box;
   padding: 19px 22px;
   box-sizing: border-box;
+  transition: transform 0.5s;
+  cursor: pointer;
 }
+.service__item:hover{
+  transform:scale(110%);
+}
+
+@media screen and (max-width: 759.99px) {
+  .service__item{
+    width: 220px;
+    height: auto;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 509.99px) {
+  .service__item{
+    width: 150px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 329.99px) {
+  .service__item{
+    width: 120px;
+    height: auto;
+  }
+}
+/*@media screen and (max-width: 399.99px) {
+  .service__item{
+    width: 280px;
+    height: auto;
+  }
+}*/

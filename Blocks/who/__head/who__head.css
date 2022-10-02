@@ -5,3 +5,9 @@ line-height: 21px;
 color: rgba(68, 112, 57, 1);
 margin: 18px 0 53px;
 }
+
+@media screen and (max-width: 1229.99px) {
+  .who__head{
+    text-align: center;
+  }
+}

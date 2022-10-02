@@ -4,3 +4,9 @@
   margin: auto;
   padding: 130px 0 60px;
 }
+
+@media screen and (max-width: 1220.99px) {
+  .works__content{
+    padding: 50px 20px 30px;
+  }
+}

@@ -4,3 +4,21 @@ font-weight: 400;
 line-height: 20px;
 margin-top: 8px;
 }
+
+@media screen and (max-width: 759.99px) {
+  .contacts__text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 639.99px) {
+  .contacts__text {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 639.99px) {
+  .contacts__text {
+    max-width: none;
+  }
+}

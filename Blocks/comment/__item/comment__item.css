@@ -3,4 +3,31 @@ padding: 24px 32px;
 background: #FFFFFF;
 box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.07), 3px 3px 25px rgba(0, 0, 0, 0.08);
 border-radius: 3px;
+transition: transform 0.5s;
+cursor: pointer;
+}
+
+.comment__item:hover{
+  transform:scale(110%);
+}
+
+
+
+@media screen and (max-width: 1229.99px) {
+  .comment__item{
+    margin: 30px;
+  }
+}
+
+@media screen and (max-width: 746.99px) {
+  .comment__item{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 479.99px) {
+  .comment__item{
+    margin: 15;
+    padding: 0;
+  }
 }

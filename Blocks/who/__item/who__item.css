@@ -1,2 +1,9 @@
 .who__item{
+  max-width: 365px;
+}
+
+@media screen and (max-width: 829.99px) {
+  .who__item{
+  max-width: 100%;
+  }
 }

@@ -2,3 +2,15 @@
   display: block;
   margin: 48px auto 0;
 }
+@media screen and (max-width: 1199.99px) {
+  .map__img{
+    width: 80vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 826.99px) {
+  .map__img{
+    margin: 20px auto 0;
+  }
+} 

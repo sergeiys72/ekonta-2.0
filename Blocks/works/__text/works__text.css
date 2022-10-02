@@ -4,3 +4,27 @@ font-weight: 600;
 line-height: 23px;
 max-width: 700px;
 }
+
+@media screen and (max-width: 744.99px) {
+  .works__text{
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 519.99px) {
+  .works__text{
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 369.99px) {
+  .works__text{
+    font-size: 10px;
+    line-height: 14px;
+    max-width: 200px;
+  }
+}

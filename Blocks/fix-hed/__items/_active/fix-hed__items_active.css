@@ -1,0 +1,5 @@
+.fix-hed__items_active{
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s;
+}

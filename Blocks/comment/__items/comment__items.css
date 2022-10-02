@@ -6,3 +6,16 @@
   max-width: 1200px;
   margin: auto 0;
 }
+
+@media screen and (max-width: 1229.99px) {
+  .comment__items{
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1120.99px) {
+  .comment__items{
+    top: 0;
+  }
+}

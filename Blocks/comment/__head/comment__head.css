@@ -6,3 +6,19 @@ font-weight: 300;
 line-height: 21px;
 color: rgba(68, 112, 57, 1);
 }
+
+@media screen and (max-width: 1229.99px) {
+  .comment__head{
+    text-align: center;
+    margin: auto;
+  }
+  
+}
+
+@media screen and (max-width: 494.99px) {
+  .comment__head{
+    font-size: 10px;
+    padding: 0 10px;
+  }
+  
+}

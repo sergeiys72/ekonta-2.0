@@ -1,3 +1,16 @@
 .contacts__img{
   
 }
+
+@media screen and (max-width: 999.99px) {
+  .contacts__img{
+    width: 50vw;
+  }
+  
+}
+
+@media screen and (max-width: 499.99px) {
+  .contacts__img {
+    display: none;
+  }
+}

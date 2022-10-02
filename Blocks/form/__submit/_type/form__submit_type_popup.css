@@ -1,0 +1,20 @@
+.form__submit_type_popup{
+  margin-top: 20px;
+  background: #fff;
+  color: black;
+}
+@media screen and (max-width: 1199.99px) {
+  .form__submit_type_popup{
+    width: 250px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 999.99px) {
+  .form__submit_type_popup{
+    font-size: 14px;
+    margin:15px 0 0;
+    height: auto;
+    padding: 5px;
+  }
+}

@@ -4,3 +4,15 @@
   z-index: 1;
   padding: 23px 143px 35px;
 }
+
+@media screen and (max-width: 1000px) {
+  .merits{
+    padding: 23px 40px 35px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .merits{
+    padding: 15px;
+  }
+}

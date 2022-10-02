@@ -4,3 +4,19 @@
   top: -115%;
   right: 0%;
 }
+
+@media screen and (max-width: 754.99px) {
+  .service__list{
+    top: -60%;
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 413.99px) {
+  .service__list{
+    top: -50%;
+    /*width: 60px;*/
+    height: auto;
+  }
+}

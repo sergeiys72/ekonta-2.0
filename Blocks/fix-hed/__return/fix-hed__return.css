@@ -1,0 +1,11 @@
+.fix-hed__return{
+  color: #fff;
+  background: none;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 829.99px) {
+  .fix-hed__return{
+    font-size: 16px;
+  }
+}

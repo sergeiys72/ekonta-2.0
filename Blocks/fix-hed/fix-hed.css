@@ -1,0 +1,15 @@
+.fix-hed{
+position: fixed;
+width: 100%;
+top: 0;
+background-image: url('../../img/header__bg.jpg');
+z-index: 3;
+}
+
+.fix-hed::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+}

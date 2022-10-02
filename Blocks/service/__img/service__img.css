@@ -1,3 +1,16 @@
 .service__img{
-  
+  object-fit: cover;
+}
+
+@media screen and (max-width: 759.99px) {
+  .service__img{
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 399.99px) {
+  .service__img{
+    width: 100%;
+    height: auto;
+  }
 }

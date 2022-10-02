@@ -2,3 +2,10 @@
   display: block;
   margin: auto;
 }
+
+@media screen and (max-width: 1299.99px) {
+  .clients__img{
+    width: 90vw;
+    margin: auto; 
+  }
+}

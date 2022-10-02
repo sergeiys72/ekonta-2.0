@@ -1,3 +1,10 @@
 .header__promotion{
   margin-bottom: 40px;
+
+}
+
+@media screen and (max-width: 670px) {
+  .header__promotion{
+    margin-bottom: 20px;
+  }
 }

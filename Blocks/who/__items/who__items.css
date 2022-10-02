@@ -4,3 +4,17 @@
   gap: 50px;
   justify-content: center;
 }
+
+@media screen and (max-width: 1229.99px) {
+  .who__items{
+    grid-template-columns: 365px 365px;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 829.99px) {
+  .who__items{
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

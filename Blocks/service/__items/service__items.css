@@ -6,3 +6,30 @@
   flex-wrap: wrap;
   gap: 67px;
 }
+
+@media screen and (max-width: 1439.99px) {
+  .service__items{
+    gap: 30px;
+    margin: 0 120px;
+  }
+}
+
+@media screen and (max-width: 1326.99px) {
+  .service__items{
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 971.99px) {
+  .service__items{
+    margin: 0 20px;
+
+  }
+}
+
+@media screen and (max-width: 399.99px) {
+  .service__items{
+    margin: 0 10px;
+    gap: 10px;
+  }
+}

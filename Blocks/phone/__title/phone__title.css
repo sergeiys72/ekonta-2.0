@@ -1,0 +1,14 @@
+.phone__title{
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 999.99px) {
+  .phone__title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}

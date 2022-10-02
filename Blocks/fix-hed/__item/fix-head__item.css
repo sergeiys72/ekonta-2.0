@@ -1,0 +1,28 @@
+.fix-hed__item{
+  color: #fff;
+  /*margin: 15px 0;*/
+  font-size: 18px;
+  width: 100%;
+}
+
+.fix-hed__item a{
+  padding: 15px 0 15px 5px;
+  display: block;
+  color: #fff;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+
+@media screen and (max-width: 829.99px) {
+  .fix-hed__item a{
+    font-size: 14px;
+  }
+
+  }
+
+.fix-hed__item a:hover{
+  /*text-decoration: underline;*/
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+  -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+  box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}

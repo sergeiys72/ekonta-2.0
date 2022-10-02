@@ -8,10 +8,33 @@
   max-width: 160px;
 }
 
-.merits-items span {
+.merits-item span {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   color: #80DC68;
   margin-bottom: 3px;
+}
+
+@media screen and (max-width: 670px) {
+  .merits-item{
+    font-size: 14px;
+    max-width: 100px;
+    line-height: 19px;
+  }
+  .merits-item span{
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .merits-item{
+    font-size: 10px;
+    max-width: 80px;
+    line-height: 14px;
+  }
+  .merits-item span{
+    font-size: 24px;
+    line-height: 30px;
+  }
 }

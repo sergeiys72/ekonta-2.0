@@ -2,3 +2,15 @@
   background: rgba(128, 220, 104, 0.15);
   padding: 100px 40px;
 }
+
+@media screen and (max-width: 1229.99px) {
+  .contacts {
+    padding: 50px 40px;
+  }
+}
+
+@media screen and (max-width: 499.99px) {
+  .contacts{
+    padding: 20px 20px;
+  }
+}

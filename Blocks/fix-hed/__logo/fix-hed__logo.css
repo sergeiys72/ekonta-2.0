@@ -1,0 +1,10 @@
+.fix-hed__logo{
+  width: 150px;
+  height: auto;
+}
+
+@media screen and (max-width: 829.99px) {
+  .fix-hed__logo{
+    width: 100px;
+  }
+}

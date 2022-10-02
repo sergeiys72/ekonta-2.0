@@ -16,6 +16,7 @@
 @import url(../Blocks/header/__logo/header__logo.css);
 @import url(../Blocks/header/__text/header__text.css);
 @import url(../Blocks/header/__bt/header__bt.css);
+@import url(../Blocks/header/__bt/_disabled/header__bt_disabled.css);
 
 /* ! merits */
 @import url(../Blocks/merits/merits.css);
@@ -29,7 +30,9 @@
 @import url(../Blocks/service/__head/service__head.css);
 @import url(../Blocks/service/__head-text/service__head-text.css);
 @import url(../Blocks/service/__items/service__items.css);
+@import url(../Blocks/service/__link/service__link.css);
 @import url(../Blocks/service/__item/service__item.css);
+@import url(../Blocks/service/__item/_disabled/service__item_disabled.css);
 @import url(../Blocks/service/__img/service__img.css);
 @import url(../Blocks/service/__text/service__text.css);
 
@@ -80,3 +83,56 @@
 /* ! clients */
 @import url(../Blocks/clients/clients.css);
 @import url(../Blocks/clients/__img/clients__img.css);
+
+/* ! footer */
+@import url(../Blocks/footer/footer.css);
+@import url(../Blocks/footer/__title/footer__title.css);
+@import url(../Blocks/footer/__container/footer__container.css);
+@import url(../Blocks/footer/__items/footer__items.css);
+@import url(../Blocks/footer/__item/footer__item.css);
+@import url(../Blocks/footer/__block/footer__block.css);
+@import url(../Blocks/footer/__logo/footer__logo.css);
+
+/*! title*/
+@import url(../Blocks/title/title.css);
+/* ! form */
+@import url(../Blocks/form/form.css);
+@import url(../Blocks/form/_type/form_type_popup.css);
+@import url(../Blocks/form/__content/form__content.css);
+@import url(../Blocks/form/__content/_type/form__content_type_popup.css);
+@import url(../Blocks/form/__content/_type/form__content_type_sending.css);
+@import url(../Blocks/form/__data/form__data.css);
+@import url(../Blocks/form/__input/form__input.css);
+@import url(../Blocks/form/__input/_type/form__input_type_popup.css);
+@import url(../Blocks/form/__label/form__label.css);
+@import url(../Blocks/form/__result/form__result.css);
+@import url(../Blocks/form/__submit/form__submit.css);
+@import url(../Blocks/form/__title/form__title.css);
+@import url(../Blocks/form/__submit/_type/form__submit_type_popup.css);
+
+/*! phone */
+@import url(../Blocks/phone/phone.css);
+@import url(../Blocks/phone/__title/phone__title.css);
+@import url(../Blocks/phone/__content/phone__content.css);
+@import url(../Blocks/phone/_disabled/phone_disabled.css);
+@import url(../Blocks/phone/__img/phone__img.css);
+
+/* ! fix-hed */
+@import url(../Blocks/fix-hed/fix-hed.css);
+@import url(../Blocks/fix-hed/__content/fix-hed__content.css);
+@import url(../Blocks/fix-hed/__phone/fix-hed__phone.css);
+@import url(../Blocks/fix-hed/__return/fix-hed__return.css);
+@import url(../Blocks/fix-hed/__project/fix-hed__project.css);
+@import url(../Blocks/fix-hed/__number/fix-hed__number.css);
+@import url(../Blocks/fix-hed/__logo/fix-hed__logo.css);
+@import url(../Blocks/fix-hed/__items/fix-hed__items.css);
+@import url(../Blocks/fix-hed/__items/_active/fix-hed__items_active.css);
+@import url(../Blocks/fix-hed/__item/fix-head__item.css);
+
+/*!info*/
+@import url(../Blocks/info/info.css);
+@import url(../Blocks/info/__content/info__content.css);
+@import url(../Blocks/info/__lists/info__lists.css);
+@import url(../Blocks/info/__list/info__list.css);
+@import url(../Blocks/info/__title/info__title.css);
+@import url(../Blocks/info/__text/info__text.css);

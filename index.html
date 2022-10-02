@@ -13,17 +13,16 @@
   <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./styles/index.css">
-  <!--<script defer src="./libs/inputmask.min.js"></script>
+  <script defer src="./libs/inputmask.min.js"></script>
   <script defer src="./libs/just-validate.min.js"></script>
   <script defer src="./js/script.js"></script>
-  <script defer src="./js/script_popup_form_validate.js"></script>-->
+  <!--<script defer src="./js/script_popup_form_validate.js"></script>-->
 </head>
 
 <body class="root">
+
   <header class="header">
     <div class="header__content">
-      <div class="header__info">
-      </div>
       <div class="header__promotion">
         <img src="./img/logo_header.png" class="header__logo"></img>
         <p class="header__text">Полный комплекс услуг по проектированию и разработки экологической документации</p>
@@ -46,32 +45,37 @@
         <img class="service__list" src="./img/service/list.png" alt="">
       </div>
       <ul class="service__items">
-        <li class="service__item">
+        <li class="service__item service__item_disabled">
           <img src="./img/service/NMY.jpg" alt="" class="service__img" width="298px" height="198px">
           <h3 class="service__text">Проект НМУ</h3>
         </li>
         <li class="service__item">
+          <a class="service__link" href="./pages/szz.html"></a>
           <img src="./img/service/SZZ.jpg" alt="" class="service__img" width="298px" height="198px">
           <h3 class="service__text">Проект СЗЗ</h3>
         </li>
         <li class="service__item">
+          <a class="service__link" href="./pages/ndv.html"></a>
           <img src="./img/service/NDV.jpg" alt="" class="service__img" width="298px" height="198px">
           <h3 class="service__text">Проект НДВ</h3>
         </li>
         <li class="service__item">
+          <a class="service__link" href="./pages/eco-doc.html"></a>
           <img src="./img/service/eco-doc.jpg" alt="" class="service__img" width="298px" height="198px">
           <h3 class="service__text">Экологическая документация</h3>
         </li>
         <li class="service__item">
+          <a class="service__link" href="./pages/zso.html"></a>
           <img src="./img/service/ZSO.jpg" alt="" class="service__img" width="298px" height="198px">
           <h3 class="service__text">Проект ЗСО</h3>
         </li>
         <li class="service__item">
+          <a class="service__link" href="./pages/noolr.html"></a>
           <img src="./img/service/Noolr.png" alt="" class="service__img" width="298px" height="198px">
           <h3 class="service__text">Проект НООЛР</h3>
         </li>
-        <button class="header__bt">Бесплатный расчет стоймости</button>
       </ul>
+      <button class="header__bt header__bt_desabled">Бесплатный расчет стоймости</button>
     </section>
     <section class="who">
       <div class="who__content">
@@ -116,7 +120,7 @@
     </section>
     <section class="comment">
       <h2 class="title">Отзывы</h2>
-      <div class="comment__head">Обратная связь от тех, кто уже стал нашим клиентом.</div>
+      <p class="comment__head">Обратная связь от тех, кто уже стал нашим клиентом.</p>
       <ul class="comment__items">
         <li class="comment__item">
           <img class="comment__img" src="./img/comment/0001.jpg" alt="благодарственное письмо" width="320px">
@@ -190,8 +194,30 @@
       </div>
     </section>
     <section class="letter">
+      <form action="#" class="form" method="POST" enctype="multipart/form-data">
+        <h2 class="form__title">Оставте заявку и мы с вами свяжемся</h2>
+        <fieldset class="form__content">
+          <label class="form__label">
+            <input class="form__input" type="text" data-validate-field="name" name="Имя"
+              placeholder="Как к вам обратиться*">
+          </label>
+          <label class="form__label">
+            <input class="form__input" type="tel" data-validate-field="tel" name="Телефон"
+              placeholder="На какой телефон перезвонить*">
+          </label>
+          <label class="form__label">
+            <input class="form__input" type="text" data-validate-field="text" name="Коментарий"
+              placeholder="Какой проект вас интересует">
+          </label>
+          <label>
+            <input class="form__input form__submit" type="submit" id="button">
+          </label>
+        </fieldset>
+        <p class="form__result res-true">Сообщение отправленно! Скоро с вами свяжется наш
+          специалист</p>
+        <p class="form__result res-false">что то пошло не так, попробуйте еще раз или позвоните на наш номер</p>
+      </form>
       <img src="./img/works/list.png" alt="листья" class="works__image">
-      <form class="form"></form>
     </section>
     <section class="map">
       <h2 class="title">География реализованных проектов</h2>
@@ -224,9 +250,7 @@
             </li>
           </ul>
         </div>
-        <div class="contacts__img">
-          <img src="./img/contacts/hands.png" alt="рукопожатие">
-        </div>
+        <img src="./img/contacts/hands.png" alt="рукопожатие" class="contacts__img">
       </div>
     </section>
     <section class="clients">
@@ -234,8 +258,79 @@
     </section>
   </main>
   <footer class="footer">
-
+    <div class="footer__container">
+      <div class="footer__block">
+        <h2 class="footer__title">Проекты:</h2>
+        <ul class="footer__items">
+          <li class="footer__item">
+            <a href="">НМУ</a>
+          </li>
+          <li class="footer__item">
+            <a href="">СЗЗ</a>
+          </li>
+          <li class="footer__item">
+            <a href="">НДВ</a>
+          </li>
+          <li class="footer__item">
+            <a href="">Эко. док.</a>
+          </li>
+          <li class="footer__item">
+            <a href="">СЗЗ</a>
+          </li>
+          <li class="footer__item">
+            <a href="">НЛООР</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__block">
+        <h2 class="footer__title">Контакты:</h2>
+        <ul class="footer__items">
+          <li class="footer__item">
+            <a href="">Email: tender@ekonta.ru</a>
+          </li>
+          <li class="footer__item">
+            <a href="">Тел: 8-800-201-38-68.</a>
+          </li>
+          <li class="footer__item">
+            <a href="">г. Тюмень, ул. Геологоразведчиков, д. 6 в, офис 313.</a>
+          </li>
+        </ul>
+        <div class="footer__block">
+          <img src="./img/logo_footer.png" class="footer__logo"></img>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <!--<div class="phone">
+    <div class="phone__content phone__content_disabled">
+      <form action="#" class="form form_type_popup" method="POST" enctype="multipart/form-data">
+        <h2 class="phone__title">Заполните форму, чтобы заказать звонок</h2>
+        <fieldset class="form__content form__content_type_popup">
+          <label class="form__label">
+            <input class="form__input form__input_type_popup" type="text" data-validate-field="name" name="Имя"
+              placeholder="Как к вам обратиться*">
+          </label>
+          <label class="form__label">
+            <input class="form__input form__input_type_popup" type="tel" data-validate-field="tel" name="Телефон"
+              placeholder="На какой телефон перезвонить*">
+          </label>
+          <label class="form__label">
+            <input class="form__input form__input_type_popup" type="text" data-validate-field="text" name="Коментарий"
+              placeholder="Какой проект вас интересует">
+          </label>
+          <label>
+            <button class="form__input form__submit form__submit_type_popup" type="submit"
+              id="button">Отправить</button>
+          </label>
+        </fieldset>
+        <p class="form__result res-true">Сообщение отправленно! Скоро с вами свяжется наш
+          специалист</p>
+        <p class="form__result res-false">что то пошло не так, попробуйте еще раз или позвоните на наш номер</p>
+      </form>
+    </div>
+    <img src="./img/phone.png" alt="" class="phone__img">
+  </div>-->
 </body>
 
 </html>

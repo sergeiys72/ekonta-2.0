@@ -1,0 +1,9 @@
+.service__item_disabled{
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: unset;
+  transform: none;
+}
+
+.service__item_disabled:hover{
+  transform:none;
+}

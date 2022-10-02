@@ -12,3 +12,21 @@ color: rgba(68, 112, 57, 1);
 margin-bottom: 83px;
 z-index: 1;
 }
+
+@media screen and (max-width: 1229.99px) {
+  .service__head-text{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 744.99px) {
+  .service__head-text{
+    padding: 38px 10px;
+  }
+}
+
+@media screen and (max-width: 399.99px) {
+  .service__head-text{
+    margin-bottom: 43px;
+  }
+}

@@ -1,0 +1,9 @@
+.fix-hed__number{
+font-size: 24px;
+}
+
+@media screen and (max-width: 829.99px) {
+  .fix-hed__number{
+    font-size: 16px;
+  }
+}

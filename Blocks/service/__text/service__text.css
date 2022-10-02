@@ -6,3 +6,17 @@ line-height: 28px;
 text-align: center;
 margin-top: 5px;
 }
+
+@media screen and (max-width: 759.99px) {
+  .service__text{
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 509.99px) {
+  .service__text{
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

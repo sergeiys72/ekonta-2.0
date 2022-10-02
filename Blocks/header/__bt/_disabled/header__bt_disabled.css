@@ -1,0 +1,5 @@
+.header__bt_desabled{
+  background: rgba(28, 44, 24, 0.2);
+  box-shadow: none;
+  cursor:unset;
+}

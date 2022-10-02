@@ -5,3 +5,26 @@ line-height: 30px;
 max-width: 552px;
 margin: 11px 0 45px;
 }
+
+@media screen and (max-width: 1000px) {
+  .header__text{
+    margin: 11px auto 25px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .header__text{
+    font-size: 18px;
+    line-height: 26px;
+    width: 75vw;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .header__text{
+    font-size: 14px;
+    line-height: 20px;
+    width: 80vw;
+    font-weight: normal;
+  }
+}

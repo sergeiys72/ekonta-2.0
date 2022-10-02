@@ -1,0 +1,20 @@
+.fix-hed__phone{
+  display: block;
+  border: none;
+  width: 130px;
+  padding: 5px 10px;
+  background: linear-gradient(180deg, #80DC68 0%, #48A230 100%);
+  box-shadow: 0px 3px 0px rgba(77, 181, 55, 0.3), 0px 16px 17px -8px rgba(94, 184, 70, 0.37);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+  transition: transform 0.5s;
+}
+
+  .fix-hed__phone:hover{
+    opacity: 0.8  ;
+  }

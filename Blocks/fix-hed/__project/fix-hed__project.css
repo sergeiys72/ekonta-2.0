@@ -1,0 +1,10 @@
+.fix-hed__project{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 829.99px) {
+  .fix-hed__project{
+    font-size: 16px;
+  }
+}

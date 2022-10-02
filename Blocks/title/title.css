@@ -7,3 +7,22 @@ margin-left: 140px;
 max-width: 1200px;
 margin: auto;
 }
+
+@media screen and (max-width: 1229.99px) {
+  .title{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 826.99px) {
+  .title{
+    font-size: 24px;
+    line-height: 35px;
+  }
+} 
+
+@media screen and (max-width: 494.99px) {
+  .title{
+    font-size: 16px;
+    line-height: 20px;
+  }
+} 

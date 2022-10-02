@@ -3,5 +3,22 @@
   max-width: 1200px;
   margin: auto  ;
   z-index: 1;
-  /*padding: 46px 0;*/
+  padding: 48px 50px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__content{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 670px) {
+  .header__content{
+    padding: 20px 15px 0;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .header__content{
+    padding: 10px 15px 0;
+  }
 }

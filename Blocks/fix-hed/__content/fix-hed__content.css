@@ -1,0 +1,11 @@
+.fix-hed__content{
+  padding: 10px 30px;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  color: #fff;
+}
