@@ -26,7 +26,6 @@
 /*! service */
 @import url(../Blocks/service/service.css);
 @import url(../Blocks/service/__list/service__list.css);
-@import url(../Blocks/service/__title/service__title.css);
 @import url(../Blocks/service/__head/service__head.css);
 @import url(../Blocks/service/__head-text/service__head-text.css);
 @import url(../Blocks/service/__items/service__items.css);
@@ -106,6 +105,7 @@
 @import url(../Blocks/form/__input/_type/form__input_type_popup.css);
 @import url(../Blocks/form/__label/form__label.css);
 @import url(../Blocks/form/__result/form__result.css);
+@import url(../Blocks/form/__result/_add/form__result_add.css);
 @import url(../Blocks/form/__submit/form__submit.css);
 @import url(../Blocks/form/__title/form__title.css);
 @import url(../Blocks/form/__submit/_type/form__submit_type_popup.css);

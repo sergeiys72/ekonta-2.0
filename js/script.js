@@ -62,7 +62,7 @@ new window.JustValidate('.form', {
         if (xhr.status === 200) {
           console.log('Отправлено');
           resultTrue.classList.add('form__result_add');
-          formContent.classList.remove('form__content_type_sending');
+          letter.classList.remove('form__content_type_sending');
         } else {
           resultFalse.classList.add('form__result_add');
         }
